@@ -28,7 +28,7 @@ app.use('/cart',     cartRoutes);
 app.use('/orders',   orderRoutes);    
 
 
-app.get('/',(req,res)=>{
+app.get('/',(req,res) => {
     res.send('KLE Ecommerce Backend is Running ');
 });
 
